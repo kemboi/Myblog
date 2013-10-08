@@ -6,7 +6,11 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+<<<<<<< HEAD
 module Blog
+=======
+module Myblog
+>>>>>>> 6d7515efe91b2d4afce594615f3fa6f421617f1f
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -19,6 +23,9 @@ module Blog
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+<<<<<<< HEAD
 config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+=======
+>>>>>>> 6d7515efe91b2d4afce594615f3fa6f421617f1f
   end
 end

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Blog::Application.routes.draw do
   get "users/new"
  root :to => 'pages#home'
@@ -5,6 +6,11 @@ match '/about' , to: 'pages#about',via: 'get'
 match '/help' , to: 'pages#help',via: 'get'
 match '/signup', to: 'users#new',via: 'get'
 
+=======
+Myblog::Application.routes.draw do
+  get "home/index"
+root :to => 'home#index'
+>>>>>>> 6d7515efe91b2d4afce594615f3fa6f421617f1f
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

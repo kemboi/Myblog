@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Blog::Application.configure do
+=======
+Myblog::Application.configure do
+>>>>>>> 6d7515efe91b2d4afce594615f3fa6f421617f1f
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
